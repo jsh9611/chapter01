@@ -12,11 +12,26 @@ public class PrimeDetect {
 	int divisor = 2;
 	int num = stdin.nextInt();
 	boolean isPrime = true;
-
+	
 //	while    소수가 아닌거만 찾으면 된다.
 //		ㆍㆍㆍ  
+	int n = 2;
+	if (num != 1) {
+		
+	while (n < num) {
+		if (num % n == 0) {
+			isPrime = false;
+		break;	
+		} 
+		System.out.println(n);
+		n++;
+	}
+	} else {
+		isPrime = false;
+	}
 	
-	if (isPrime) {
+	
+	if (isPrime == true) {
 		System.out.println(num + "은 소수입니다.");
 	} else {
 		System.out.println(num + "은 소수가 아닙니다.");
