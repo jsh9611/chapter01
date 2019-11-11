@@ -2,7 +2,7 @@ package chapter01;
 
 import java.util.*; // Scanner 클래스를 사용하기 위함
 
-public class PrimeDetect {
+public class PrimeDetect01 {
 
 	public static void main(String[] args) {
 

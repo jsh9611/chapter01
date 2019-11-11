@@ -2,7 +2,7 @@ package chapter01;
 
 import java.util.*; // Scanner 클래스를 사용하기 위함
 
-public class PrimeDetect3 {
+public class PrimeDetect03 {
 	public static boolean isPrime(int x) {
 		int i = 2;
 		boolean isPrime = true;
