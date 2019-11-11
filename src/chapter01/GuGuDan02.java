@@ -9,14 +9,14 @@ public class GuGuDan02 {
 			
 			while(j < 10) {
 				int result = i*j;
-				System.out.print(j + " X " + i + " = " + result + "  ");
+				System.out.print(j + " X " + i + " = " + result + "\t");
 				j++;
 				
 			}
 			
 	
 			i++;
-			System.out.println("-------------------------");
+			System.out.print("\n");
 		}
 
 	}
