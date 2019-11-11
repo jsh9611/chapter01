@@ -40,3 +40,9 @@ public class PrimeDetect {
 
 	}
 }
+
+
+/*
+ * while(i<num) { int result = num % 1; if(result==0) { isPrime = false; break;
+ * } i++ }
+ */
