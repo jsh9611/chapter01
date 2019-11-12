@@ -50,4 +50,4 @@ public class ArrayTest2 {
 
 }
 // list는 동적
-// array는 정적
+// array는 정적.
