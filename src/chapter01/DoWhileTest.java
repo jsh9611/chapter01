@@ -12,7 +12,7 @@ public class DoWhileTest {
 		
 		do {
 			System.out.print("입력[0 to quit]");
-			input = Scanner.nextInt();
+			input = scanner.nextInt();
 			sum = sum + input;
 			
 		} while(input > 0);
