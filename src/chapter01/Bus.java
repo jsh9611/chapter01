@@ -1,10 +1,11 @@
 package chapter01;
 
-public class Bus extends Car {  // extends Car : 확장(상속시켜서 기능을 확장)
+public class Bus extends Car {  
+	// extends Car : 확장(상속시켜서 기능을 확장)
 	
 	void info() {
-		
+		System.out.println("안내방송");
 	}
-	
 
 }
+
